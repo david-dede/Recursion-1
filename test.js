@@ -1,8 +1,9 @@
-// function factorial(n) {
-// //   if (n <= 1) return n;
-// //   return n * factorial(n - 1);
-// // if(n===0)return "     stop"
-// return n+factorial(n+1)
-// }
-// console.table(factorial(5));
-console.log(4%2);
+function array11(nums, i) {
+  if (nums >= 0) {
+    return 0;
+  }
+  if (nums[i] === 11) {
+    return 1 + array11(nums, i + 1);
+  }
+  return array11(nums, i + 1);
+}
