@@ -3,7 +3,7 @@ function array6(nums, i) {
     return false;
   }
   if (nums[i] === 6) {
-    // return true;
+    return true;
   }
   return array6(nums, i + 1);
 }
