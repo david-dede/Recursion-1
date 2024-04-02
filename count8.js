@@ -1,7 +1,7 @@
-// function count8(n) {
-//   if (n < 8) return 0;
-//   if(n%10===8){
-//     return 1+ count8(Math.floor(n/10))
-//   }
-//   return count8(math.floor(n/10))
-// }
+function count8(n) {
+  if (n < 8) return 0;
+  if(n%10===8){
+    return 1+ count8(Math.floor(n/10))
+  }
+  return count8(math.floor(n/10))
+}
