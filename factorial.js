@@ -1,18 +1,18 @@
-// Given n of 1 or more, return the factorial of n, which is n * (n-1) * (n-2) ... 1. Compute the result recursively (without loops).
+// // Given n of 1 or more, return the factorial of n, which is n * (n-1) * (n-2) ... 1. Compute the result recursively (without loops).
 
-// Examples
+// // Examples
 
-// factorial(1) → 1
-// factorial(2) → 2
-// factorial(3) → 6
+// // factorial(1) → 1
+// // factorial(2) → 2
+// // factorial(3) → 6
 
 
 
-function factorial(n) {
-if(n<=2){
-    return n
-}
-return n*factorial(n-1)
+// function factorial(n) {
+// if(n<=2){
+//     return n
+// }
+// return n*factorial(n-1)
 
-}
-console.log(factorial(3));
+// }
+// console.log(factorial(3));
