@@ -1,4 +1,4 @@
-// function array11(nums, i) {
+function array11(nums, i) {
   // if (nums >= 0) {
     // return 0;
   // }
