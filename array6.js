@@ -6,4 +6,4 @@ function array6(nums, i) {
     return true;
   }
   return array6(nums, i + 1);
-}
+// }
