@@ -5,5 +5,5 @@ function array6(nums, i) {
   if (nums[i] === 6) {
     return true;
   }
-  return array6(nums, i + 1);
+  // return array6(nums, i + 1);
 // }
